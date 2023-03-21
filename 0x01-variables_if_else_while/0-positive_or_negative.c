@@ -16,11 +16,11 @@ int main(void)
 	printf("%d \n", x);
 		if (x > 0)
 		{
-			printf("The number is positive \n");
+			printf("The number is positive 98 \n");
 		}
 		else if (x < 0)
 		{
-			printf("The number is negative \n");
+			printf("The number is negative 98 \n");
 		}
 		else
 		{
