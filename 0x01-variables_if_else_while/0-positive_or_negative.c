@@ -13,18 +13,17 @@ int main(void)
 
 	srand(time(0));
 	x = rand()  - RAND_MAX / 2;
-	printf("%d \n", x);
-		if (x > 98)
+		if (x > 0)
 		{
-			printf("The number is positive \n");
+			printf("%d is positive \n", x);
 		}
-		else if (x < 98)
+		else if (x == 0)
 		{
-			printf("The number is negative \n");
+			printf("%d is zero \n", x);
 		}
 		else
 		{
-			printf("The number is zero \n");
+			printf("%d is negative \n", x);
 		}
 		return (0);
 }
